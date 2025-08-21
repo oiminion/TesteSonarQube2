@@ -127,6 +127,7 @@ public class UI extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new UI().setVisible(true);
+                System.out.println("SonarQube por favor reclame disso");
             }
         });
     }
